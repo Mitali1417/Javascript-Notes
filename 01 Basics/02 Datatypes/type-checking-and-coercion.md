@@ -130,7 +130,7 @@ true === 1     // false
 
 ---
 
-## 4. Common Tricky Examples (Important for Interviews!)
+## 4. Common Tricky Examples (Important)
 
 ```js
 [] == []             // false (different references)
@@ -141,19 +141,6 @@ null == 0           // false
 undefined == 0      // false
 null == undefined   // true
 ```
-
----
-
-## 5. Summary Table
-
-| Feature               | Description                               |
-| --------------------- | ----------------------------------------- |
-| **typeof**            | Basic type checking                       |
-| **instanceof**        | Check object constructor                  |
-| **===**               | Strict type comparison                    |
-| **==**                | Allows coercion                           |
-| **Implicit coercion** | Happens in operations automatically       |
-| **Explicit coercion** | Using `Number()`, `String()`, `Boolean()` |
 
 ---
 
@@ -182,5 +169,18 @@ Boolean(0)     // false
 Boolean("hi")  // true
 Boolean("")    // false
 ```
+
+---
+
+## 5. Summary Table
+
+| Feature               | Description                               |
+| --------------------- | ----------------------------------------- |
+| **typeof**            | Basic type checking                       |
+| **instanceof**        | Check object constructor                  |
+| **===**               | Strict type comparison                    |
+| **==**                | Allows coercion                           |
+| **Implicit coercion** | Happens in operations automatically       |
+| **Explicit coercion** | Using `Number()`, `String()`, `Boolean()` |
 
 ---
