@@ -59,6 +59,8 @@ console.log(!x); // false
 
 ## 6. Ternary Operator Example
 
+A shorthand for if...else (conditional statements) 
+
 ```js
 let age = 18;
 let canVote = (age >= 18) ? "Yes" : "No";
