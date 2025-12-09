@@ -63,18 +63,3 @@ console.log(divide(6, 3)); // 2
   console.log('Executed immediately');
 })();
 ```
-
----
-
-## 5. Interview Questions on JavaScript Functions
-
-1. What are the different ways to declare a function in JavaScript?
-2. What is the difference between a function declaration and a function expression?
-3. What are arrow functions and how are they different from normal functions?
-4. What is an IIFE and when would you use it?
-5. How does hoisting work with function declarations and expressions?
-6. Explain the difference in handling `this` in arrow functions and regular functions.
-7. Can functions be stored in variables or passed as arguments?
-8. What are anonymous functions and when are they used?
-9. What are default parameters in functions?
-10. What is the difference between parameters and arguments?
