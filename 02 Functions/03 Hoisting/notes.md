@@ -57,18 +57,3 @@ const sayHi = function() { console.log('Hi'); };
 | Initialized                   | undefined       | ❌ No  | ❌ No  | ✅ Yes                | ❌ No                        |
 | Temporal Dead Zone            | ❌ No            | ✅ Yes | ✅ Yes | ❌ No                 | ✅ Yes                       |
 | Can access before declaration | Yes (undefined) | No    | No    | Yes                  | No                          |
-
----
-
-## 5. Interview Questions on Hoisting
-
-1. What is hoisting in JavaScript?
-2. Which types of variables are hoisted and how?
-3. What is the Temporal Dead Zone (TDZ)?
-4. How does hoisting work with function declarations?
-5. How does hoisting work with function expressions and arrow functions?
-6. Can you access a `var` variable before declaration? What value does it return?
-7. Can you access a `let` or `const` variable before declaration?
-8. What is the difference between hoisting of `var` and `let`?
-9. Why are function declarations hoisted but function expressions are not?
-10. Give an example showing the difference in hoisting between `var`, `let`, `const`, and functions.

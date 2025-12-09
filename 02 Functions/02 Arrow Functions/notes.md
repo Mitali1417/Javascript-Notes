@@ -63,18 +63,3 @@ multiplyAndLog(2, 4); // 8
 const numbers = [1, 2, 3, 4];
 numbers.forEach(n => console.log(n));
 ```
-
----
-
-## 5. Interview Questions on Arrow Functions
-
-1. What is an arrow function and how is it different from a regular function?
-2. How does `this` behave in arrow functions?
-3. Can arrow functions be used as constructors? Why or why not?
-4. What is the difference in handling `arguments` between arrow and regular functions?
-5. How do you write a single-line arrow function vs a multi-line arrow function?
-6. Are arrow functions hoisted?
-7. When should you use arrow functions over regular functions?
-8. Can arrow functions be used as methods in objects? Explain.
-9. How do arrow functions simplify callbacks?
-10. What are common pitfalls when using arrow functions with `this`?
